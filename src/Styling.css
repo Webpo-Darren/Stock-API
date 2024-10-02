@@ -1,0 +1,86 @@
+h1 {
+  text-align:center;
+}
+h2
+{
+  padding-left: 4%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-left: 30px;
+    column-gap: 40px;
+    align-items: center;
+    background-color:#7eeef1;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+  }
+  
+  /*#currencySelect {
+    height: 50px;
+    background-color: #eac46b;
+    color: black;
+    font-weight: bold;
+    width: auto;
+    border-radius: 10px;
+  }*/
+
+  .find-input
+  {
+    height: 50px;
+    border: 1px solid rgb(2, 2, 2);
+  }
+  .find-quantity
+  {
+    height: 50px;
+    border: 1px solid rgb(3, 3, 3);
+  }
+  .find-price
+  {
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .DisplayBox{
+    background-color: rgb(222, 211, 232);
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: center;
+    padding-left: 30px;
+    width: 50%;
+    margin: 30px;
+  }
+
+  .Stock-result {
+    display: flex;
+    justify-content:left;
+    column-gap: 10px;
+    font-weight: 500;
+  }
+  .Quantity-result {
+    display: flex;
+    justify-content:left;
+    column-gap: 10px;
+    font-weight: 500;
+  }
+  .PurchasePrice-result {
+    display: flex;
+    justify-content:left;
+    column-gap: 10px;
+    font-weight: 500;
+  }
+  .CurrentPrice-result {
+    display: flex;
+    justify-content:left;
+    column-gap: 10px;
+    font-weight: 500;
+  }
+  .ProfitLoss-result {
+    display: flex;
+    justify-content:left;
+    column-gap: 10px;
+    font-weight: 500;
+  }
+  
